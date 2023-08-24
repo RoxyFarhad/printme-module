@@ -1,0 +1,13 @@
+{
+  "module_id": "roxy:printme",
+  "visibility": "private",
+  "url": "",
+  "description": "",
+  "models": [
+    {
+      "api": "",
+      "model": ""
+    }
+  ],
+  "entrypoint": ""
+}
