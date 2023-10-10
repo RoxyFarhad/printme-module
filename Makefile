@@ -1,3 +1,6 @@
 .PHONY: build
 build: 
-	mkdir bin && go build -o bin/module module/main.go	
+	-rm -rf bin && mkdir bin && go build -o bin/module main.go
+
+package:
+	tar -czf module.tar.gz bin/module

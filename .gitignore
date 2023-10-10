@@ -1,0 +1,5 @@
+bin
+meta.json
+
+# module package dir
+module.tar.gz
